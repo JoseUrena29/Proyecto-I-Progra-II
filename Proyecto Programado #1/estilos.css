@@ -20,6 +20,23 @@ body {
   background: var(--fondo);
 }
 
+p1{
+  color:#fff;
+  font-size:x-large;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+buttonf{
+  background-color: blue;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 17px;
+  color: #ffffff;
+  border-radius: 6px;
+  border: 2px solid #0016b0;
+}
+
 img{
   vertical-align: top;
 }

@@ -66,36 +66,38 @@
     </section>
     <div id="contact-content">
         <div class="section-heading">
-            <br>
+            <a href="https://api.whatsapp.com/send?phone=86348556&text=Hola, Necesito mas informacion!"><img src="img/whatsapp.jpg" alt=""></a>
+            <a href="https://www.facebook.com/Pulper%C3%ADa-La-Legua-101242618612079/"><img src="img/facebook.jpg" alt=""></a>
             <h1>Servicio de Contacto<br><em>Pulperia La Legua</em></h1>
             <p>Si desea contactar con nosotros por favor complete el siguiente formulario: </p>
 
         </div>
         <div class="section-content">
             <form id="contact" action="#" method="post">
+                <p1 id="error"> </p1><br>
                 <div class="row">
                     <div class="col-md-4">
-                        <fieldset>
-                            <input name="name" type="text" class="form-control" id="name"
+                        <fieldset><br>
+                            <input name="nombre" type="text" class="form-control" id="nombre"
                                 placeholder="  Ingrese su nombre . . ." required="">
                         </fieldset>
                     </div>
                     <div class="col-md-4">
-                        <fieldset>
+                        <fieldset><br>
                             <input name="email" type="email" class="form-control" id="email"
                                 placeholder="  Ingrese su email . . ." required="">
                         </fieldset>
                     </div>
                     <div class="col-md-4">
-                        <fieldset>
-                            <input name="subject" type="text" class="form-control" id="subject"
+                        <fieldset><br>
+                            <input name="asunto" type="text" class="form-control" id="asunto"
                                 placeholder="  Asunto . . ." required="">
                         </fieldset>
                     </div><br>
                     <br>
                     <div class="col-md-12">
-                        <fieldset>
-                            <textarea name="message" rows="6" class="form-control" id="message"
+                        <fieldset><br>
+                            <textarea name="mensaje" rows="6" class="form-control" id="mensaje"
                                 placeholder="  Su mensaje . . ." required=""></textarea>
                         </fieldset>
                     </div>
@@ -103,7 +105,7 @@
                     <div class="col-md-12">
                         <br>
                         <fieldset>
-                            <button type="submit" id="form-submit" class="btn bg-primary">Send Message Now</button>
+                            <buttonf type="submit" onclick="ValidationForm() ">Enviar Mensaje</buttonf>
                         </fieldset>
                     </div>
                 </div>
@@ -115,6 +117,7 @@
         <p>Copyright &copy; 2021 Pulperia La Legua </p>
     </section>
     </div>
+    <script src="site.js"></script>
 </body>
 
 </html>
