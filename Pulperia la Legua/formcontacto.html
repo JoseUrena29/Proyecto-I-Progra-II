@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/popper.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+
+    <title>Contacto Pulperia la Legua</title>
+</head>
+
+<body>
+    <style>
+        body {
+
+            background-image: url("https://www.wallpapertip.com/wmimgs/0-4123_chromeos-newdefaultwall-default-chrome-background.png");
+
+            background-repeat: no-repeat;
+
+            width: 100vw;
+
+            height: 100vh;
+
+            position: absolute;
+        }
+    </style>
+    <header>
+        <div class="container">
+            <div class="row align-items-stretch justify-content-between">
+                <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                    <a class="navbar-brand" href="index.html">Pulperia la Legua</a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="navbar-brand" href="direcciones.html">Dirección</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="navbar-brand" href="formcontacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav mr-auto">
+                        </ul>
+                    </div><br>
+                </nav>
+            </div>
+        </div><br><br>
+    </header>
+    <div id="contact-content">
+        <div class="section-heading">
+            <a href="https://api.whatsapp.com/send?phone=86348556&text=Hola, Necesito mas informacion!"><img
+                    src="img/whatsapp.jpg" alt=""></a>
+            <a href="https://www.facebook.com/Pulper%C3%ADa-La-Legua-101242618612079/"><img src="img/facebook.jpg"
+                    alt=""></a>
+            <h1>&nbsp;&nbsp;&nbsp;Servicio de Contacto<br><em>&nbsp;&nbsp;&nbsp;Pulperia La
+                    Legua</em><br><em>&nbsp;&nbsp;&nbsp;Numero de Telefono:2417-06-18</em></h1>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Si desea contactar con nosotros por favor complete el
+                siguiente formulario: </p>
+
+        </div>
+        <div class="section-content">
+            <form id="contact" action="#" method="post">
+                <p1 id="error"> </p1><br>
+                <div class="row">
+                    <div class="col-md-4">
+                        <fieldset><br>
+                            <input name="nombre" type="text" class="form-control" id="nombre"
+                                placeholder="  Ingrese su nombre . . ." required="">
+                        </fieldset>
+                    </div>
+                    <div class="col-md-4">
+                        <fieldset><br>
+                            <input name="email" type="email" class="form-control" id="email"
+                                placeholder="  Ingrese su email . . ." required="">
+                        </fieldset>
+                    </div>
+                    <div class="col-md-4">
+                        <fieldset><br>
+                            <input name="asunto" type="text" class="form-control" id="asunto"
+                                placeholder="  Asunto . . ." required="">
+                        </fieldset>
+                    </div><br>
+                    <br>
+                    <div class="col-md-12">
+                        <fieldset><br>
+                            <textarea name="mensaje" rows="6" class="form-control" id="mensaje"
+                                placeholder="  Su mensaje . . ." required=""></textarea>
+                        </fieldset>
+                    </div>
+                    <br>
+                    <div class="col-md-12">
+                        <br>
+                        <fieldset>
+                            <buttonf type="submit" onclick="ValidationForm() ">Enviar Mensaje</buttonf>
+                        </fieldset>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div><br>
+    </section>
+    <section class="footer">
+        <p>Copyright &copy; 2021 Pulperia La Legua </p>
+    </section>
+    </div>
+    <script src="site.js"></script>
+</body>
+
+</html>
