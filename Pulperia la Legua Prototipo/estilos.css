@@ -26,6 +26,12 @@ p1{
   font-family: 'Times New Roman', Times, serif;
 }
 
+p{
+  color:rgb(10, 28, 104);
+  font-size:x-large;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 buttonf{
   background-color: blue;
   text-decoration: none;

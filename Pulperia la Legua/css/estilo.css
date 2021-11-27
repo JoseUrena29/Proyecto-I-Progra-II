@@ -1,0 +1,19 @@
+p{
+    color:rgb(10, 28, 104);
+    font-size:x-large;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+body {
+    font-family: 'open sans';
+    background: var(--fondo);
+  }
+
+  .footer {
+    background-color: white;
+    opacity: 70%;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+  }
